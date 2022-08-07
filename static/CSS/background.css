@@ -1,0 +1,33 @@
+h1 {
+    font-family: arial;
+    color: blue;
+}
+h2{
+    font-family: -apple-system;
+    color: black;
+}
+
+.big{
+    z-index: 1;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin:0px auto;
+}
+.opacity{
+    background: url("../images/Campus-from-Divinity-Hall.jpg");
+    opacity: 0.60;
+    filter: alpha(opacity=60);
+    background-size: cover;
+    display: block;
+    height: 100vh;
+    left: -5px;
+    top:-5px;
+    bottom:-5px;
+    position: fixed;
+    right: -5px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
